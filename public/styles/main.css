@@ -6366,13 +6366,12 @@ label.panel-block {
   transform: scale(0.95);
   transition: box-shadow 0.5s, transform 0.5s; }
   .wrapper:hover {
-    transform: scale(1);
     box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2); }
   .wrapper .container {
     width: 100%;
     height: 100%; }
     .wrapper .container .top {
-      height: 80%;
+      height: 85%;
       width: 100%;
       background: url(../images/indalsu/60RT-TP-450x580px.jpg) no-repeat center center;
       -webkit-background-size: 100%;
@@ -6399,25 +6398,7 @@ label.panel-block {
         float: left; }
         .wrapper .container .bottom .left .details {
           padding: 20px;
-          float: left;
-          width: calc(70% - 40px); }
-        .wrapper .container .bottom .left .buy {
-          float: right;
-          width: calc(30% - 2px);
-          height: 100%;
-          background: #f1f1f1;
-          transition: background 0.5s;
-          border-left: solid thin rgba(0, 0, 0, 0.1); }
-          .wrapper .container .bottom .left .buy i {
-            font-size: 30px;
-            padding: 30px;
-            color: #254053;
-            transition: transform 0.5s; }
-          .wrapper .container .bottom .left .buy:hover {
-            background: #A6CDDE; }
-          .wrapper .container .bottom .left .buy:hover i {
-            transform: translateY(5px);
-            color: #00394B; }
+          float: left; }
       .wrapper .container .bottom .right {
         width: 50%;
         background: #A6CDDE;
@@ -6459,7 +6440,7 @@ label.panel-block {
           transform: translateY(-100%); }
   .wrapper .inside {
     z-index: 9;
-    background: #379B12E6;
+    background: #23D160E6;
     width: 140px;
     height: 140px;
     position: absolute;
@@ -6479,7 +6460,7 @@ label.panel-block {
       right: 0;
       top: 0;
       border-radius: 0;
-      height: 80%; }
+      height: 85%; }
       .wrapper .inside:hover .icon {
         opacity: 0;
         right: 15px;
